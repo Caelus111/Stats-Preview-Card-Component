@@ -34,14 +34,14 @@ img {
 }
 
 .stats-side {
-  margin: 50px 100px 50px 70px;
+  margin: 50px 70px 50px 70px;
   font-family: 'Inter', sans-serif;
 }
 
 .stats-side h1 {
   font-weight: bolder;
   font-size: 37px;
-  margin-left: 10px;
+  margin: 10px 10px 20px 0px;
 }
 
 .stats-side h1 span {
@@ -51,15 +51,16 @@ img {
 .stats-side p {
   font-size: 15px;
   line-height: 1.5;
-  margin: 10px;
+  margin: 10px 40px 10px 0px;
   color: #ffffffbf;
 }
 
 .stats {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 70px;
+  gap: 20px;
 }
 
 .stats span:first-child {
@@ -159,6 +160,7 @@ img {
     justify-content: center;
     /* height:fit-content; */
     transform: translateY(0px);
+    gap: 0
   }
   .stats span {
     justify-content: center;
